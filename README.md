@@ -36,3 +36,6 @@ When typed pineapple:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124646592-d058a900-decf-11eb-808b-f2413f520bfe.png">
 List added:
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124646685-ee260e00-decf-11eb-9ff8-7bed28f9a6f1.png">
+List clicked:
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/63008958/124655482-de5ff700-deda-11eb-8bec-2110e63d5923.png">
+
