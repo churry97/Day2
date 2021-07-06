@@ -4,9 +4,11 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     app:layout_anchorGravity="center"
+    android:padding="20dp"
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="20dp"
@@ -15,8 +17,12 @@
     <TextView
         android:id="@+id/tvTitle"
         android:textSize="20dp"
+        android:padding="20dp"
         android:onClick="onClick"
+        android:layout_weight="1"
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="과일이름" />
+        android:text="과일이름"
+        />
 </LinearLayout>

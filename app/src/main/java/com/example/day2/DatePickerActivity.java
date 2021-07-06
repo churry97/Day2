@@ -17,8 +17,7 @@ public class DatePickerActivity extends AppCompatActivity {
 
     public void showDatePicker(View view) {
         DialogFragment newFragment = new DatePickerFragment();
-//        newFragment.show(getSupportFragmentManager(),
-//                getString(R.string."d"));
+        newFragment.show(getSupportFragmentManager(),"datePicker");
     }
 
     public void processDatePickerResult(int year, int month, int day){

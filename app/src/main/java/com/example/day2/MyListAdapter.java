@@ -10,12 +10,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.MyListViewHolder>{
     Context context;
     ArrayList<String> data;
 
-    MyListAdapter(ArrayList<String>data){
+    MyListAdapter(Context context, ArrayList<String>data){
         this.context = context;
         this.data = data;
     }

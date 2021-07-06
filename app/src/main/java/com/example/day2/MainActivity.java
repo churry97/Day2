@@ -41,22 +41,22 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu1:
-                displayToast();
-                return true;
-            case R.id.menu2:
-                displayToast2();
-                return true;
-            case R.id.item1:
-                Toast.makeText(this, "item 1 selected", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.item2:
-                Toast.makeText(this, "item 2 selected", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.item3:
-                Toast.makeText(this, "item 3 selected", Toast.LENGTH_SHORT).show();
-                return true;
-            default:
+//            case R.id.menu1:
+//                displayToast();
+//                return true;
+//            case R.id.menu2:
+//                displayToast2();
+//                return true;
+//            case R.id.item1:
+//                Toast.makeText(this, "item 1 selected", Toast.LENGTH_SHORT).show();
+//                return true;
+//            case R.id.item2:
+//                Toast.makeText(this, "item 2 selected", Toast.LENGTH_SHORT).show();
+//                return true;
+//            case R.id.item3:
+//                Toast.makeText(this, "item 3 selected", Toast.LENGTH_SHORT).show();
+//                return true;
+//            default:
                 // Do nothing
         }
         return super.onOptionsItemSelected(item);

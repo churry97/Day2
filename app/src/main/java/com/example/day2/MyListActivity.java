@@ -34,18 +34,25 @@ public class MyListActivity extends AppCompatActivity {
         data.add("체리");
 
         //recycler view
-        adapter = new MyListAdapter(this.data);
+        adapter = new MyListAdapter(this, data);
         recyclerView = findViewById(R.id.fruitlist);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
 
         et = findViewById(R.id.etFruit);
+        bt = findViewById(R.id.bt);
+        bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { onAdd(); }
+
+            private void onAdd() {
+                String newfruit = et.getText().toString();
+                data.add(newfruit);
+                adapter.notifyDataSetChanged();
+            }
+        });
     }
 
-    public void onAdd(View view){
-        String newfruit = et.getText().toString();
-        data.add(newfruit);
-        adapter.notifyDataSetChanged();
-    }
+
 }
 
